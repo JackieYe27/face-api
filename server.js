@@ -7,6 +7,7 @@ import handleSignin from './controllers/signin.js'
 import profile from './controllers/profile.js'
 import {image, handleApiCall} from './controllers/image.js'
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 
 const db = knex({
     client: 'pg',
