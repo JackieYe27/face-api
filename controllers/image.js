@@ -1,11 +1,11 @@
 import express from 'express';
 import Clarifai from 'clarifai';
-import config from '../config.js';
+// import config from '../config.js';
 
 
-const key = config.key
+// const key = config.key
 const app  = new Clarifai.App({
-    apiKey: key
+    apiKey: "key"
 });
 
 export const handleApiCall = (req, res) => {
