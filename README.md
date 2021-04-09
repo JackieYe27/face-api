@@ -1,4 +1,2 @@
 About The Project:
-A backend project involving Express and Node which connects to a postgresql database.
-Also we connect to a Clarifai facial recognition API.
-In order to use the API we must get a Clarifai API and simply input it into controllers/image.js file where key is needed.
+A backend project involving Express and Node which connects to a postgresql database. We use Knex.js as our query builder of choice to link the server and database. Also we connect to a Clarifai facial recognition API. In order to use the API we must get a Clarifai API and simply input it into controllers/image.js file where key is needed. Link to front end code: https://github.com/JackieYe27/facerecognitionapp .
